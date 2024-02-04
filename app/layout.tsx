@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <link rel="shortcut icon" href="/images/logo-roxa.svg" type="image/x-icon"/>
       <body className={inter.className}>{children}</body>
     </html>
   );
