@@ -1,0 +1,100 @@
+"use client";
+import { useState } from "react";
+
+export function About() {
+  const [isEducation, setIsEducaton] = useState<boolean>(false);
+
+  return (
+    <section className="py-28 lg-pt-20 px-10 lg:px-12 xl:px-28">
+      <h2 className="text-white text-4xl font-bold mb-3 my-2 leading-10 text-center lg:text-6xl">
+        Sobre
+      </h2>
+      <div className="flex flex-col items-center lg:flex-row lg:items-start">
+        <img
+          src="/images/foto-livia-araujo.png"
+          alt="foto"
+          className="mt-10 h-[50%] sm:h-[30rem] sm:w-[60%] lg:mt-6 lg:h-[32rem] lg:w-[50%] xl:mr-24 xl:mt-16"
+        />
+        <div>
+          <p className="mt-8 text-purple-100 text-lg lg:w-[90%] xl:mt-20 lg:mt-0">
+            I am a seasoned full-stack software engineer with over 8 years of
+            professional experience, specializing in backend development. 8
+            years of professional experience, specializing in backend
+            development.
+            <br /> I am a seasoned full-stack software engineer with over 8
+            years of professional experience, specializing in backend
+            development.
+          </p>
+
+          <div className="mt-6 flex gap-4">
+            <button
+              onClick={() => setIsEducaton(false)}
+              className={
+                isEducation == false
+                  ? "bg-purple-900 text-white pl-4 pr-4 pt-1 pb-1 rounded-xl text-lg font-semibold"
+                  : "bg-[#1c0849] text-purple-300 pl-4 pr-4 pt-1 pb-1 rounded-xl text-lg font-semibold"
+              }
+            >
+              Experiências
+            </button>
+            <button
+              onClick={() => setIsEducaton(true)}
+              className={
+                isEducation
+                  ? "bg-purple-900 text-white pl-4 pr-4 pt-1 pb-1 rounded-xl text-lg font-semibold"
+                  : "bg-[#1c0849] text-purple-300 pl-4 pr-4 pt-1 pb-1 rounded-xl text-lg font-semibold"
+              }
+            >
+              Educação
+            </button>
+          </div>
+          {!isEducation ? (
+            <div>
+              <div className="mt-6">
+                <span className="text-purple-900 text-xl">2022 - Atual</span>
+                <p className="text-purple-100 text-xl">Freelancer</p>
+              </div>
+              <div className="mt-6">
+                <span className="text-purple-900 text-xl">
+                  Nov 2022 - Dez 2023
+                </span>
+                <p className="text-purple-100 text-xl">
+                  Desenvolvedora de Software - Avia Delivery
+                </p>
+              </div>
+              <div className="mt-6">
+                <span className="text-purple-900 text-xl">
+                  Out 2021 - Dez 2021
+                </span>
+                <p className="text-purple-100 text-xl">
+                  Estagiária de TI - Estúdio Esù
+                </p>
+              </div>
+            </div>
+          ) : (
+            <div>
+              <div className="mt-6">
+                <span className="text-purple-900 text-xl">2022 - 2024</span>
+                <p className="text-purple-100 text-xl">Análise e Desenvolvimento de Sistemas</p>
+                <p className="text-purple-100 text-lg">
+                 Centro Universitário Paraíso 
+                </p>
+              </div>
+              <div className="mt-6">
+                <span className="text-purple-900 text-xl">
+                  Nov 2022 - Dez 2023
+                </span>
+                <p className="text-purple-100 text-xl">
+                  Técnico em Redes de Computadores
+                </p>
+                 <p className="text-purple-100 text-lg">
+                  EEEP Wellington Belém de Figueiredo
+                </p>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+  );
+}
