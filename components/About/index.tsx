@@ -6,7 +6,7 @@ export function About() {
 
   return (
     <section className="py-28 lg-pt-20 px-10 lg:px-12 xl:px-28">
-      <h2 className="text-white text-4xl font-bold mb-3 my-2 leading-10 text-center lg:text-6xl">
+      <h2 className="text-white text-3xl font-bold mb-3 my-2 leading-10 text-center lg:text-5xl">
         Sobre
       </h2>
       <div className="flex flex-col items-center lg:flex-row lg:items-start">

@@ -4,10 +4,10 @@ export function Home() {
   return (
     <section
       id="home"
-      className="flex flex-col md:flex-row-reverse px-10 md:lg:items-start md:justify-between md:h-[70vh] md:px-12 lg:px-20 lg:pt-4 lg:h-[90vh] xl:px-28 2xl:justify-end 2xl:pt-40"
+      className="bg-[url('/images/bg-fullhd.png')] flex flex-col px-10 md:flex-row-reverse md:lg:items-start md:justify-between md:h-[70vh] md:px-12 lg:px-20 lg:pt-20 lg:h-[100vh] xl:px-28 2xl:justify-end 2xl:pt-40"
     >
       <img
-        src="/images/foto1.png"
+        src="/images/foto1234.png"
         alt="foto"
         className="mt-10 h-[50%] md:h-[20rem] lg:mt-6 lg:h-[32rem] xl:mr-24 xl:mt-16"
       />
@@ -28,21 +28,21 @@ export function Home() {
         <div className="flex flex-col items-start mt-4 gap-4 lg:gap-8 lg:flex-row">
           <a
             href=""
-            className="text-purple-900 text-xl font-bold flex justify-center items-center"
+            className="text-purple-900 text-xl font-bold flex justify-center items-center transition-transform duration-300 transform-gpu hover:scale-125"
           >
             Linkedin
             <FiArrowUpRight fontWeight={"900"} color="#7F4FEB" size={"30"} />
           </a>
           <a
             href=""
-            className="text-purple-900 text-xl font-bold flex justify-center items-center"
+            className="text-purple-900 text-xl font-bold flex justify-center items-center transition-transform duration-300 transform-gpu hover:scale-125"
           >
             Github
             <FiArrowUpRight fontWeight={"900"} color="#7F4FEB" size={"30"} />
           </a>
           <a
             href=""
-            className="text-purple-900 text-xl font-bold flex justify-center items-center"
+            className="text-purple-900 text-xl font-bold flex justify-center items-center transition-transform duration-300 transform-gpu hover:scale-125"
           >
             Instagram
             <FiArrowUpRight fontWeight={"900"} color="#7F4FEB" size={"30"} />
