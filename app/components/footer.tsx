@@ -25,7 +25,7 @@ export function Footer() {
       </div>
 
       <div className="md:text-center mt-20 lg:mt-4">
-          <span className="text-purple-600 text-xl">© Lívia Araujo 2023</span>
+          <span className="text-purple-900 text-xl">© Lívia Araujo 2023</span>
           <p className="text-white text-xl">Todos os direitos reservados</p>
       </div>
     </footer>

@@ -1,10 +1,12 @@
-import { About } from "@/components/About";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header/";
-import { Home } from "@/components/Home";
-import { Projects } from "@/components/Projects";
-import { Technologies } from "@/components/Technologies";
+import { About } from "@/app/components/about";
+import { Header } from "@/app/components/header";
+import { Home } from "@/app/components/home";
+import { Projects } from "@/app/components/projects";
+import { Technologies } from "@/app/components/technologies";
 import Image from "next/image";
+import { Contact } from "./components/contact";
+import { Footer } from "./components/footer";
+
 
 export default function App() {
   return (
@@ -15,8 +17,9 @@ export default function App() {
         <About />
         <Technologies />
         <Projects />
-        <Footer />
+        <Contact />
       </main>
+      <Footer />
     </>
   );
 }

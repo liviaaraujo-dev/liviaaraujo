@@ -5,7 +5,7 @@ export function About() {
   const [isEducation, setIsEducaton] = useState<boolean>(false);
 
   return (
-    <section className="py-28 lg-pt-20 px-10 lg:px-12 xl:px-28">
+    <section className="py-28 lg-pt-20 px-10 lg:px-12 xl:px-28" id="about">
       <h2 className="text-white text-3xl font-bold mb-3 my-2 leading-10 text-center lg:text-5xl">
         Sobre
       </h2>
@@ -13,17 +13,13 @@ export function About() {
         <img
           src="/images/foto-livia-araujo.png"
           alt="foto"
-          className="mt-10 h-[50%] sm:h-[30rem] sm:w-[60%] lg:mt-6 lg:h-[32rem] lg:w-[50%] xl:mr-24 xl:mt-16"
+          className="mt-10 h-[50%] sm:h-[30rem] sm:w-[60%] lg:mt-6 lg:h-[32rem] lg:w-[50%] xl:mr-24 xl:mt-16 2xl:h-[100vh] 2xl:w-[40%]"
         />
         <div>
           <p className="mt-8 text-purple-100 text-lg lg:w-[90%] xl:mt-20 lg:mt-0">
-            I am a seasoned full-stack software engineer with over 8 years of
-            professional experience, specializing in backend development. 8
-            years of professional experience, specializing in backend
-            development.
-            <br /> I am a seasoned full-stack software engineer with over 8
-            years of professional experience, specializing in backend
-            development.
+            Iniciei meus estudos na programação por conta própria, descobri não apenas uma profissão, mas uma paixão.
+            Trabalho há 1 ano na área, já atuei com desenvolvimento front-end e de aplicativos móveis; e também com cloud computing.
+            <br /> Possuo uma forte base em linguagens de programação como JavaScript, TypeScript e Dart, além de experiência em frameworks modernos como Flutter e React.
           </p>
 
           <div className="mt-6 flex gap-4">
@@ -77,7 +73,7 @@ export function About() {
                 <span className="text-purple-900 text-xl">2022 - 2024</span>
                 <p className="text-purple-100 text-xl">Análise e Desenvolvimento de Sistemas</p>
                 <p className="text-purple-100 text-lg">
-                 Centro Universitário Paraíso 
+                  Centro Universitário Paraíso
                 </p>
               </div>
               <div className="mt-6">
@@ -87,7 +83,7 @@ export function About() {
                 <p className="text-purple-100 text-xl">
                   Técnico em Redes de Computadores
                 </p>
-                 <p className="text-purple-100 text-lg">
+                <p className="text-purple-100 text-lg">
                   EEEP Wellington Belém de Figueiredo
                 </p>
               </div>

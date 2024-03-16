@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
+import { Toaster } from "sonner";
 
 const inter = Poppins({   weight: ['400', '500', '600', '700'], subsets: ['latin'] });
 
@@ -17,7 +18,10 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <link rel="shortcut icon" href="/images/logo-roxa.svg" type="image/x-icon"/>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Toaster richColors/>
+      </body>
     </html>
   );
 }

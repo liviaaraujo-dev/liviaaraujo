@@ -4,12 +4,12 @@ export function Home() {
   return (
     <section
       id="home"
-      className="bg-[url('/images/bg-fullhd.png')] flex flex-col px-8 py-16 md:flex-row-reverse md:lg:items-start md:justify-between md:h-[70vh] md:px-12 lg:px-20 lg:pt-20 lg:h-[100vh] xl:px-28 2xl:justify-end 2xl:pt-40"
+      className="bg-[url('/images/bg-fullhd.png')] flex flex-col px-8 py-16 md:flex-row-reverse md:lg:items-start md:justify-between md:h-[70vh] md:px-12 lg:px-14 lg:pt-20 lg:h-[100vh] xl:px-28 2xl:justify-end 2xl:pt-40"
     >
       <img
         src="/images/foto1234.png"
         alt="foto"
-        className="mt-10 h-[50%] md:h-[20rem] lg:mt-6 lg:h-[32rem] xl:mr-24 xl:mt-16"
+        className="mt-10 h-[50%] md:h-[20rem] lg:mt-6 lg:h-[26rem] xl:lg:h-[32rem]  xl:mr-24 xl:mt-16"
       />
 
       <div className="flex flex-col mt-10 md:mt-20 lg:mt-24 xl:mt-44">
@@ -29,7 +29,7 @@ export function Home() {
           <a
             href="https://www.linkedin.com/in/liviaaraujodev"
             target="_blank"
-            className="text-purple-900 text-xl font-bold flex justify-center items-center transition-transform duration-300 transform-gpu hover:scale-125 lg:text-2x"
+            className="text-purple-900 text-xl font-bold flex justify-center items-center transition-transform duration-300 transform-gpu hover:scale-125 lg:text-2xl"
           >
             Linkedin
             <FiArrowUpRight fontWeight={"900"} color="#7F4FEB" size={"30"} />
