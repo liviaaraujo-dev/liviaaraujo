@@ -4,7 +4,7 @@ export function Home() {
   return (
     <section
       id="home"
-      className="bg-[url('/images/bg-fullhd.png')] flex flex-col px-8 py-16 md:flex-row-reverse md:lg:items-start md:justify-between md:h-[70vh] md:px-12 lg:px-14 lg:pt-20 lg:h-[100vh] xl:px-28 2xl:justify-end 2xl:pt-40"
+      className="bg-[url('/images/bg-fullhd.png')] flex flex-col px-6 py-16 md:flex-row-reverse md:lg:items-start md:justify-between md:h-[70vh] md:px-12 lg:px-14 lg:pt-20 lg:h-[100vh] xl:px-28 2xl:justify-end 2xl:pt-40"
     >
       <img
         src="/images/foto1234.png"

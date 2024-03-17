@@ -68,11 +68,6 @@ export function Technologies() {
       img: "/images/techs/tailwind.png",
     },
     {
-      id: 14,
-      name: "Sass",
-      img: "/images/techs/sass.png",
-    },
-    {
       id: 15,
       name: "Firebase",
       img: "/images/techs/firebase.png",
@@ -89,18 +84,24 @@ export function Technologies() {
     },
     {
       id: 18,
-      name: "Google Cloud",
-      img: "/images/techs/google-cloud.png",
+      name: "AWS",
+      img: "/images/techs/aws.png",
     },
     {
       id: 19,
       name: "Azure",
       img: "/images/techs/azure.png",
     },
+    
+    {
+      id: 14,
+      name: "VS Code",
+      img: "/images/techs/vs-code.png",
+    },
   ];
 
   return (
-    <section className="pb-28 px-10 lg:px-12 lg-pt-20 xl:px-28 flex flex-col items-center">
+    <section className="pb-28 px-6 lg:px-12 lg-pt-20 xl:px-28 flex flex-col items-center">
       <h2 className="text-white text-4xl font-bold mb-3 my-2 leading-10 text-center lg:text-5xl">
         Tecnologias
       </h2>

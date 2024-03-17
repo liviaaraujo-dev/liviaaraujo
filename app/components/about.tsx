@@ -5,7 +5,7 @@ export function About() {
   const [isEducation, setIsEducaton] = useState<boolean>(false);
 
   return (
-    <section className="py-28 lg-pt-20 px-10 lg:px-12 xl:px-28" id="about">
+    <section className="py-28 lg-pt-20 px-6 lg:px-12 xl:px-28" id="about">
       <h2 className="text-white text-3xl font-bold mb-3 my-2 leading-10 text-center lg:text-5xl">
         Sobre
       </h2>
@@ -17,8 +17,8 @@ export function About() {
         />
         <div>
           <p className="mt-8 text-purple-100 text-lg lg:w-[90%] xl:mt-20 lg:mt-0">
-            Iniciei meus estudos na programação por conta própria, descobri não apenas uma profissão, mas uma paixão.
-            Trabalho há 1 ano na área, já atuei com desenvolvimento front-end e de aplicativos móveis; e também com cloud computing.
+            Sou uma profissional dedicada e apaixonada por tecnologia e programação.
+             Tenho experiência a mais de 1 ano na área, já atuei com desenvolvimento front-end, aplicativos móveis e com cloud computing.
             <br /> Possuo uma forte base em linguagens de programação como JavaScript, TypeScript e Dart, além de experiência em frameworks modernos como Flutter e React.
           </p>
 

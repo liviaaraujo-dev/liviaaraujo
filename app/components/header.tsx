@@ -10,8 +10,8 @@ export function Header() {
 
     return (
         <header className={
-            isMenu ? "bg-purple-black-900 fixed top-0 left-0 right-0 z-50 px-10 py-2.5 h-full lg:flex"
-                : "bg-black/95 fixed top-0 left-0 right-0 z-50 px-10 py-2.5 lg:flex lg:px-18 lg:items-center xl:px-28"}>
+            isMenu ? "bg-purple-black-900 fixed top-0 left-0 right-0 z-50 px-6 py-2.5 h-full lg:flex"
+                : "bg-black/95 fixed top-0 left-0 right-0 z-50 px-6 py-2.5 lg:flex lg:px-18 lg:items-center xl:px-28"}>
 
             <div className="flex w-full justify-between">
                 <h1 className="lg:mt-2">

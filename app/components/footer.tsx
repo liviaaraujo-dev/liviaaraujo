@@ -3,7 +3,7 @@ import { MdOutlineWhatsapp } from "react-icons/md";
 
 export function Footer() {
   return (
-    <footer className="flex flex-col bg-purple-black-800 px-10 pt-16 pb-10 lg:pb-6 lg:pt-8 lg:px-32">
+    <footer className="flex flex-col bg-purple-black-800 px-6 pt-16 pb-10 lg:pb-6 lg:pt-8 lg:px-32">
       <div className="flex justify-between">
         <img
           src="/images/logo-purple.png"
@@ -25,7 +25,7 @@ export function Footer() {
       </div>
 
       <div className="md:text-center mt-20 lg:mt-4">
-          <span className="text-purple-900 text-xl">© Lívia Araujo 2023</span>
+          <span className="text-purple-900 text-xl">© Lívia Araujo 2024</span>
           <p className="text-white text-xl">Todos os direitos reservados</p>
       </div>
     </footer>

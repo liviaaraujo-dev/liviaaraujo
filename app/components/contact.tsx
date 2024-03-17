@@ -50,7 +50,7 @@ export function Contact() {
       <div className="flex flex-col w-full justify-center gap-10 mt-10 lg:mt-16 lg:flex-row">
         <div className="flex gap-4 mt-2 flex-col">
           <a
-            href="https://github.com/liviaaraujo-dev"
+            href="mailto:liviaaraujo.dev@gmail.com"
             target="_blank"
             className="flex items-center gap-2"
           >
