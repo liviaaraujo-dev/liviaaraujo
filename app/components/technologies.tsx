@@ -40,7 +40,6 @@ export function Technologies() {
       name: "Dart",
       img: "/images/techs/dart.png",
     },
-
     {
       id: 8,
       name: "Git",
@@ -51,7 +50,6 @@ export function Technologies() {
       name: "Github",
       img: "/images/techs/github.png",
     },
-
     {
       id: 10,
       name: "Next Js",
@@ -68,45 +66,59 @@ export function Technologies() {
       img: "/images/techs/tailwind.png",
     },
     {
-      id: 15,
+      id: 13,
       name: "Firebase",
       img: "/images/techs/firebase.png",
     },
     {
+      id: 14,
+      name: "PHP",
+      img: "/images/techs/php.png",
+    },
+    {
+      id: 15,
+      name: "SQL",
+      img: "/images/techs/sql.jpeg",
+    },
+    {
       id: 16,
+      name: "MySql",
+      img: "/images/techs/mysql.png",
+    },
+    {
+      id: 17,
       name: "Linux",
       img: "/images/techs/linux.png",
     },
     {
-      id: 17,
+      id: 18,
       name: "Docker",
       img: "/images/techs/docker.png",
     },
     {
-      id: 18,
+      id: 19,
       name: "AWS",
       img: "/images/techs/aws.png",
     },
     {
-      id: 19,
+      id: 20,
       name: "Azure",
       img: "/images/techs/azure.png",
     },
-    
     {
-      id: 14,
+      id: 21,
       name: "VS Code",
       img: "/images/techs/vs-code.png",
     },
   ];
 
   return (
-    <section className="pb-28 px-6 lg:px-12 lg-pt-20 xl:px-28 flex flex-col items-center">
+    <section id="technologies" className="pb-28 px-6 lg:px-12 lg-pt-20 xl:px-28 flex flex-col items-center">
       <h2 className="text-white text-4xl font-bold mb-3 my-2 leading-10 text-center lg:text-5xl">
         Tecnologias
       </h2>
 
-      <div className="grid grid-cols-3 mt-10 sm:grid-cols-4 lg:grid-cols-5 lg:items-start lg:justify-start xl:w-[80%] xl:grid-cols-6 ">
+      <div className="grid grid-cols-3 mt-10 sm:grid-cols-4 lg:grid-cols-5 lg:items-start lg:justify-start xl:w-[80%] xl:grid-cols-7">
         {techs.map((tech) => (
           <div
             key={tech.id}

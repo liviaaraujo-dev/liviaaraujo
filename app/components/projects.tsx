@@ -15,7 +15,7 @@ import { SiDart } from "react-icons/si";
 
 export function Projects() {
   return (
-    <section className="pb-28 px-6 lg:px-12 lg-pt-28 xl:px-28 flex flex-col items-center">
+    <section id="projects" className="pb-28 px-6 lg:px-12 lg-pt-28 xl:px-28 flex flex-col items-center">
       <h2 className="text-white text-4xl font-bold mb-3 my-2 leading-10 text-center lg:text-5xl">
         Projetos
       </h2>
@@ -233,7 +233,7 @@ export function Projects() {
           </div>
           <div className="flex flex-col items-center gap-4 mt-4 sm:flex-row">
             <a
-              href="https://quiz-harry-potter-phi.vercel.app/"
+              href="https://nlw-expert-notes-liviaaraujo.netlify.app/"
               target="_blank"
               className="bg-purple-900 hover:bg-purple-600 flex items-center text-white font-medium w-[100%] justify-between px-4 gap-4 py-2 rounded-lg lg:w-[50%]"
             >
@@ -242,7 +242,7 @@ export function Projects() {
               <MdArrowOutward size="25" />
             </a>
             <a
-              href="https://github.com/liviaaraujo-dev/quiz-harry-potter"
+              href="https://github.com/liviaaraujo-dev/nlw-expert-notes"
               target="_blank"
               className="bg-[#413A4F] hover:bg-[#675c7e] flex items-center text-white font-medium w-[100%] justify-between px-4 gap-4 py-2 rounded-lg lg:w-[50%]"
             >

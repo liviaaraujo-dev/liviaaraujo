@@ -22,7 +22,7 @@ export function Home() {
         </p>
 
         <p className="text-white text-3xl font-bold mb-3 my-2 leading-10 lg:text-6xl">
-          Frontend Developer
+          Full Stack Developer
         </p>
 
         <div className="flex flex-col items-start mt-6 gap-6 lg:gap-8 lg:flex-row">

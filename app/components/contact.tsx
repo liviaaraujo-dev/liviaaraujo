@@ -43,7 +43,7 @@ export function Contact() {
   }
 
   return (
-    <section className="flex flex-col items-center justify-center px-6 pb-20">
+    <section id="contact" className="flex flex-col items-center justify-center px-6 pb-20">
       <h2 className="text-white text-4xl font-bold leading-10 text-center lg:text-5xl">
         Contato
       </h2>
