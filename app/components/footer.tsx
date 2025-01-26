@@ -18,14 +18,14 @@ export function Footer() {
           <a href="https://www.linkedin.com/in/liviaaraujodev" target="_blank">
             <FaLinkedin size={35} color="white" />
           </a>
-          <a href="https://wa.me/558892858695" target="_blank">
+          {/* <a href="https://wa.me/558892858695" target="_blank">
             <MdOutlineWhatsapp size={40} color="white" />
-          </a>
+          </a> */}
         </div>
       </div>
 
       <div className="md:text-center mt-20 lg:mt-4">
-          <span className="text-purple-900 text-xl">© Lívia Araujo 2024</span>
+          <span className="text-purple-900 text-xl">© Lívia Araujo 2025</span>
           <p className="text-white text-xl">Todos os direitos reservados</p>
       </div>
     </footer>

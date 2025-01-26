@@ -13,10 +13,10 @@ export function About() {
         <img
           src="/images/foto-livia-araujo.png"
           alt="foto"
-          className="mt-10 h-[50%] sm:h-[30rem] sm:w-[60%] lg:mt-6 lg:h-[32rem] lg:w-[50%] xl:mr-24 xl:mt-16 2xl:h-[100vh] 2xl:w-[40%]"
+          className="mt-10 h-[50%] sm:h-[30rem] sm:w-[60%] lg:mt-6 lg:h-[28rem] lg:w-[50%] xl:mr-24 xl:mt-8 2xl:h-[100vh] 2xl:w-[40%]"
         />
         <div>
-          <p className="mt-8 text-purple-100 text-lg lg:w-[90%] xl:mt-20 lg:mt-0">
+          <p className="mt-8 text-purple-100 text-lg lg:w-[100%] xl:mt-8 lg:mt-0">
             Sou uma profissional dedicada e apaixonada por tecnologia e programação.
              Tenho experiência a mais de 1 ano na área, já atuei com desenvolvimento front-end, aplicativos móveis e com cloud computing.
             <br /> Possuo uma forte base em linguagens de programação como JavaScript, TypeScript e Dart, além de experiência em frameworks modernos como Flutter e React.
@@ -46,6 +46,14 @@ export function About() {
           </div>
           {!isEducation ? (
             <div>
+              <div className="mt-6">
+                <span className="text-purple-900 text-xl">
+                  Abril 2024 - Atual
+                </span>
+                <p className="text-purple-100 text-xl">
+                  Desenvolvedora de Software - Universidade Patativa do Assaré
+                </p>
+              </div>
               <div className="mt-6">
                 <span className="text-purple-900 text-xl">2022 - Atual</span>
                 <p className="text-purple-100 text-xl">Freelancer</p>
@@ -78,7 +86,7 @@ export function About() {
               </div>
               <div className="mt-6">
                 <span className="text-purple-900 text-xl">
-                  Nov 2022 - Dez 2023
+                  2022 - 2023
                 </span>
                 <p className="text-purple-100 text-xl">
                   Técnico em Redes de Computadores

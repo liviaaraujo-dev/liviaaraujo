@@ -59,7 +59,7 @@ export function Contact() {
               liviaaraujo.dev@gmail.com
             </span>
           </a>
-          <a
+          {/* <a
             href="https://wa.me/558892858695"
             target="_blank"
             className="flex items-center"
@@ -68,7 +68,7 @@ export function Contact() {
             <span className="text-white font-semibold text-lg">
               +55 (88) 992858695
             </span>
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/liviaaraujodev"
             target="_blank"
